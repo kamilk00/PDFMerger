@@ -15,12 +15,17 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.WindowsAPICodePack.Core" Version="1.1.0" />
     <PackageReference Include="Microsoft.WindowsAPICodePack.Shell" Version="1.1.0" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
     <PackageReference Include="PDFsharp" Version="6.0.0-preview-2" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="down.png" />
     <Resource Include="up.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\" />
   </ItemGroup>
 
 </Project>
